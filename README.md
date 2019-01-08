@@ -97,6 +97,42 @@
 
 
 ## 錯誤Log
+   * No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el
+
+ => 從Unity複製mips64el-linux-android-4.9資料夾到android-ndk-r18b\toolchains\之中
+
+   * Android NDK: APP_STL gnustl_shared is no longer supported. Please switch to either c++_static or c++_shared.
+C:\Cocos\MyGame\build\jsb-link\frameworks\runtime-src\proj.android-studio\app\jni
+APP_STL := gnustl_static
+
+Android NDK: Invalid NDK_TOOLCHAIN_VERSION value: 4.9. GCC is no longer supported
+ Android NDK GCC => Clang
+
+ => 改裝android-ndk-r18
+
+   * cocos2D-x  python 在 UTF-8 與 Big5 衝突
+
+ => 目前尚無解
 
   * 詳見 .\docs\Error Log.txt
 
+## 多國語言實踐
+
+  * 使用i18n插件實踐Local Label和Local Image
+
+## Cocos控制項
+ 
+  *  Scene
+  * Button – Click
+  * Label
+  * ToggleGroup
+  * WebView
+  * Prefabs, Random Instances
+  * Character Actions
+  * Audio – Background Music & Effect Sounds
+
+## 後續展望
+
+* 嘗試使用HTTP GET/POST連接javaScript和Go
+* 使Win32, Android-apk 連接上 Server
+* Cocos2D 繼續設計、模擬楓之谷

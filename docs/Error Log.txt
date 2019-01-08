@@ -1,6 +1,7 @@
 1.
 No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el
 C:\Users\mopack.chiou\AppData\Local\Android\android-ndk-r18b\toolchains\mips64el-linux-android-4.9
+ => 從Unity複製mips64el-linux-android-4.9資料夾到android-ndk-r18b\toolchains\之中
 
 2.
 Android NDK: APP_STL gnustl_shared is no longer supported. Please switch to either c++_static or c++_shared.
@@ -11,3 +12,8 @@ Android NDK: Invalid NDK_TOOLCHAIN_VERSION value: 4.9. GCC is no longer supporte
  Android NDK GCC => Clang
   https://zhuanlan.zhihu.com/p/27470060
   http://discuss.cocos2d-x.org/t/cocos-creator-compile-error/28689/13
+ => 改裝android-ndk-r18
+
+3.
+cocos2D-x  python 在 UTF-8 與 Big5 衝突
+ => 目前尚無解
