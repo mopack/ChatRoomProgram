@@ -1,4 +1,4 @@
-## 聊天程式實作 (Golang & Cocos)
+## 聊天程式實作 (Golang & Cocos Creator)
 
 ### 實作一：
 
@@ -40,6 +40,35 @@
  ![](Images/HW1Sinup.png)
 
 ### 實作二：
+
+* 登入場景：
+
+ ![](Images/HW2LoginScene.png)
+
+* 登入完成：
+
+ ![](Images/HW2SignInScene.png)
+
+* 多國語言設定場景：
+
+ ![](Images/HW2SettingsScene.png)
+
+* 魔法森林(聊天室)場景：
+
+ ![](Images/HW2ChatRoomScene.png)
+
+* 手機Web展示：
+
+ ![](Images/HW2MobileWeb.png)
+
+
+* 手機Android(.apk) 展示 (WebView無法顯示)：
+
+ ![](Images/HW2Android.png)
+
+* Win32(.exe) 展示 (WebView無法顯示)：
+
+ ![](Images/HW2Win32.png)
 
 
 
