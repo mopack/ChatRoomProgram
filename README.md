@@ -15,14 +15,20 @@
  介面。此遊戲包括多國語言設定(簡體、繁體、英文)，且能夠於Windows桌面、網頁、
  手機網頁以及Android手機上運行。
  
- 
+ ## 成果展示
+
+* 實作一：
+
+
 
 ## 架構
 
 * 網頁架構：
 
- ![](Images/WebModel.png "Web Model")
+ ![](Images/WebModel.png)
 
 * 整體架構：
 
- ![](Images/ProjectModel.jpg "Project Model")
+ ![](Images/ProjectModel.jpg)
+
+
