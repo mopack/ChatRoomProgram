@@ -1,0 +1,4 @@
+說明部分請看：
+https://github.com/mopack/ChatRoomProgram
+或是
+Readme.pdf
