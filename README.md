@@ -16,8 +16,13 @@
  手機網頁以及Android手機上運行。
  
  
- 
- 
 
+## 架構
 
-## 目錄
+* 網頁架構：
+
+ ![](Images/ProjectModel.jpg "Web Model")
+
+* 整體架構：
+
+ ![](Images/ProjectModel.jpg "Project Model")
