@@ -19,6 +19,24 @@
 
 * 實作一：
 
+首頁：
+ ![](Images/HW1Index.png)
+
+登入：
+ ![](Images/HW1Login.png)
+
+建立新聊天群：
+ ![](Images/HW1NewThread.png)
+
+發送回應：
+ ![](Images/HW1Reply.png)
+
+建立新帳號：
+ ![](Images/HW1Sinup.png)
+
+* 實作二：
+
+
 
 
 ## 架構
