@@ -21,7 +21,7 @@
 
 * 網頁架構：
 
- ![](Images/ProjectModel.jpg "Web Model")
+ ![](Images/WebModel.png "Web Model")
 
 * 整體架構：
 
