@@ -71,16 +71,32 @@
  ![](Images/HW2Win32.png)
 
 
-
-
 ## 架構
 
-* 網頁架構：
+### 網頁架構：
 
  ![](Images/WebModel.png)
 
-* 整體架構：
+  * 使用者發送Request要求給Mux，Mux分析後將交給相符的Handler函數，Handler會向PostgreSQL的資料庫存取相應資料後，將HTML樣板渲染後回應至客戶端桌面。
+
+  * Go內建的Mux本身就是以goroutine高併發編寫，符合課程要求。設置Handle函數設定給Mux，之後交由http.Server接聽(Listen)即可。
+
+### 程式架構：
+
+  * 由DBSetting\Setup DB+Git.bat設定，PostgreSQL的資料庫和Git的pq擴充
+
+  * 資料庫包括四張表格：使用者users, 會話sessions, 協程(聊天群)threads, 發文posts
+
+  * data中的Go程式負責存取PostgreSQL資料庫的函數
+
+  * 後端方面，utils放置工具、main設定mux和server、其他route檔案實現各式Handle
+
+  * 腦圖(ChatRoomProgram\docs\ProjectModel.emmx)：
 
  ![](Images/ProjectModel.jpg)
 
+
+## 錯誤Log
+
+  * 詳見 .\docs\Error Log.txt
 

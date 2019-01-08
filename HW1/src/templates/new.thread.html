@@ -1,0 +1,13 @@
+{{ define "content" }}
+
+<form role="form" action="/thread/create" method="post">
+  <div class="lead">輸入一個新聊天群的名稱</div>
+  <div class="form-group">
+    <textarea class="form-control" name="topic" id="topic" placeholder="在這裡輸入新聊天群名" rows="4"></textarea>
+    <br/>
+    <br/>
+    <button class="btn btn-lg btn-primary pull-right" type="submit">開啟這個聊天群</button>
+  </div>
+</form>
+
+{{ end }}

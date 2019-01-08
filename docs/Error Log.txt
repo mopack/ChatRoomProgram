@@ -1,0 +1,13 @@
+1.
+No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el
+C:\Users\mopack.chiou\AppData\Local\Android\android-ndk-r18b\toolchains\mips64el-linux-android-4.9
+
+2.
+Android NDK: APP_STL gnustl_shared is no longer supported. Please switch to either c++_static or c++_shared.
+C:\Cocos\MyGame\build\jsb-link\frameworks\runtime-src\proj.android-studio\app\jni
+APP_STL := gnustl_static
+
+Android NDK: Invalid NDK_TOOLCHAIN_VERSION value: 4.9. GCC is no longer supported
+ Android NDK GCC => Clang
+  https://zhuanlan.zhihu.com/p/27470060
+  http://discuss.cocos2d-x.org/t/cocos-creator-compile-error/28689/13

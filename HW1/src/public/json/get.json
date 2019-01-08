@@ -1,0 +1,24 @@
+{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8", 
+    "Accept-Encoding": "gzip, deflate, br", 
+    "Accept-Language": "zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6,ja;q=0.5,ro;q=0.4,zh-CN;q=0.3,vi;q=0.2", 
+    "Connect-Time": "3", 
+    "Connection": "close", 
+    "Host": "localhost", 
+    "Total-Route-Time": "0", 
+    "Upgrade-Insecure-Requests": "1", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "localhost", 
+    "X-Forwarded-Port": "8080", 
+    "X-Forwarded-Proto": "http", 
+    "X-Request-Id": "807146ff-9b7e-44de-a95c-34ac85267764", 
+    "X-Request-Start": "1546827146511"
+  }, 
+  "origin": "localhost", 
+  "url": "http://localhost:8080/static/json/get.json?show_env=1"
+}
